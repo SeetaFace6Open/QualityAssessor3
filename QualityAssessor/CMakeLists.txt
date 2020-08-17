@@ -86,7 +86,7 @@ else()
 endif()
 
 # build dir
-set(OUT_DIR ${SOLUTION_DIR}/../build)
+set(OUT_DIR ${SOLUTION_DIR}/build)
 
 set(LIBRARY_OUTPUT_PATH ${OUT_DIR}/${ENV_LIBRARY_DIR})
 
