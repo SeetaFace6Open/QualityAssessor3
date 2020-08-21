@@ -23,7 +23,7 @@ set(CONFIGURATION "${CMAKE_BUILD_TYPE}")
 
 # option for SeetaAuthorize
 option(SEETA_AUTHORIZE "Using seeta authorize" OFF)
-option(SEETA_MODEL_ENCRYPT "Using model encrypt" OFF)
+option(SEETA_MODEL_ENCRYPT "Using model encrypt" ON)
 
 # env
 include(LOCAL_ENV)
